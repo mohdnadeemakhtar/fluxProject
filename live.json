@@ -1,0 +1,17 @@
+[
+  {
+    "alias": "express.feature.toggle",
+    "description": "Feature toggle",
+    "defaultValue": false,
+    "conditions": [
+      {
+        "value": true,
+        "conditionType": {
+          "onValue": "3",
+          "type": "Equals"
+        },
+        "paramName": "appdomain"
+      }
+    ]
+  }
+  ]
